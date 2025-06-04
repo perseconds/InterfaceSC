@@ -10,7 +10,7 @@ from Net.net import ChannelCode
 from tqdm import tqdm
 from util import *
 from torch.optim.lr_scheduler import MultiStepLR
-from data.dataset import ImageNet32,TinyImageNet
+from data.dataset import ImageNet32
 from torch.utils.data import ConcatDataset
 
 parser = argparse.ArgumentParser()
