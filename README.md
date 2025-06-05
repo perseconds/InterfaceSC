@@ -20,5 +20,3 @@ python train_channel.py --trainset CIFAR10 --channel awgn --C 4
 ``` 
 python train_channel.py --trainset {CIFAR10/SVHN/ImageNet32} --channel {awgn/rayleigh} --C {output dimension}
 ```
-# Acknowledgement
-The model is partially built upon the [WITT](https://github.com/KeYang8/WITT) and [CompressAI](https://github.com/InterDigitalInc/CompressAI/). We thank the authors for sharing their code.
