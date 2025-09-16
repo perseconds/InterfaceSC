@@ -18,5 +18,5 @@ python train_channel.py --trainset CIFAR10 --channel awgn --C 4
 ```
 ## Evaluation
 ``` 
-python train_channel.py --trainset {CIFAR10/SVHN/ImageNet32} --channel {awgn/rayleigh} --C {output dimension}
+python evaluation.py --trainset {CIFAR10/SVHN/ImageNet32} --channel {awgn/rayleigh} --C {output dimension}
 ```
